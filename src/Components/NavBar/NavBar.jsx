@@ -8,7 +8,7 @@ const NavBar = () => {
     <li>Blog</li>
     <li>For Business</li>
     <li>MyChat Web</li>
-    <li>Download</li>
+    <li>Register</li>
     </>
     return (
         <div className="navbar bg-blue-900 text-blue-50 p-5">
