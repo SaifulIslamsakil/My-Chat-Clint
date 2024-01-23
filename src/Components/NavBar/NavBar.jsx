@@ -1,5 +1,6 @@
 
 import { BiMessageRoundedDots } from "react-icons/bi";
+import { MdOutlineFileDownload } from "react-icons/md";
 const NavBar = () => {
     const manu = <>
     <li>Features</li>
@@ -17,22 +18,22 @@ const NavBar = () => {
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content text-black mt-3 z-[1] p-5 space-y-4 shadow bg-base-100 rounded-box w-52 cursor-pointer">
                         {manu}
                     </ul>
                 </div>
                 <div className=" flex items-centers gap-1">
                     <span className=" text-5xl"><BiMessageRoundedDots /></span>
-                    <p className=" text-3xl font-semibold">MyChat</p>
+                    <p className=" text-3xl font-semibold cursor-pointer">MyChat</p>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 space-x-8 text-lg">
+                <ul className="menu menu-horizontal px-1 space-x-8 text-lg cursor-pointer">
                     {manu}
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Download</a>
+            <button className=" py-3 px-6 bg-blue-50 text-black border-0 rounded-full  items-center gap-2 hidden md:flex ">Download <span className=" text-2xl"><MdOutlineFileDownload /></span> </button>
             </div>
         </div>
     );
