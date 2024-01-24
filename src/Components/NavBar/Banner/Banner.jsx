@@ -2,7 +2,7 @@
 import { MdOutlineFileDownload } from "react-icons/md";
 const Banner = () => {
     return (
-        <div className=" ">
+        <div className=" pt-24 ">
             <div className=" w-full h-auto rounded-2xl p-20 " style={{ backgroundImage: "url(https://i.ibb.co/bb5rKh5/316546300-547692113846445-7299710494491288098-n.png)", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
                 <div className=" flex justify-center items-center gap-10 ">
                     <div className=" flex-1 px-5  space-y-7 text-blue-50">

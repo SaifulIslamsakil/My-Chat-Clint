@@ -12,7 +12,7 @@ const NavBar = () => {
     <li>Register</li>
     </>
     return (
-        <div className="navbar bg-blue-900 text-blue-50 p-5">
+        <div className="navbar bg-blue-900 text-blue-50 p-5 fixed max-w-7xl z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +33,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-            <button className=" py-3 px-6 bg-blue-50 text-black border-0 rounded-full  items-center gap-2 hidden md:flex ">Download <span className=" text-2xl"><MdOutlineFileDownload /></span> </button>
+            <button className=" py-3 px-6 bg-blue-50 text-black border-0 rounded-full  items-center gap-2 hidden md:flex hover:bg-blue-100 ">Download <span className=" text-2xl"><MdOutlineFileDownload /></span> </button>
             </div>
         </div>
     );
