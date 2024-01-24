@@ -10,7 +10,7 @@ const Messges = () => {
                 </div>
                 <div className=" flex-1 text-blue-50 space-y-6 cursor-pointer">
                     <h3 className=" text-6xl font-bold">Speak <span className=" text-green-500">freely</span> </h3>
-                    <p className=" lg:w-3/4  text-xl">With end-to-end encryption, your personal messages and calls are secured. Only you and the person you're talking to can read or listen to them, and nobody in between, not even MyChat.</p>
+                    <p className=" lg:w-3/4  text-xl">With end-to-end encryption, your personal messages and calls are secured. Only you and the person youre talking to can read or listen to them, and nobody in between, not even MyChat.</p>
                     <button className=" flex items-center gap-3 border-b-2 border-green-500 pb-2 hover:text-green-500 ">Learn more <MdArrowForwardIos /> </button>
                 </div>
             </div>

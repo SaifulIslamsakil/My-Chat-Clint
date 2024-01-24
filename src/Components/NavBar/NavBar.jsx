@@ -12,7 +12,7 @@ const NavBar = () => {
     <li>Register</li>
     </>
     return (
-        <div className="navbar bg-blue-900 text-blue-50 p-5 fixed max-w-7xl z-50">
+        <div className="navbar bg-blue-900 bg-opacity-90 text-blue-50 p-5 fixed max-w-7xl z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
