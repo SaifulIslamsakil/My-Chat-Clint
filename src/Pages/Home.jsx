@@ -1,12 +1,14 @@
 import Feature from "../Components/Feature/Feature";
-import Banner from "../Components/NavBar/Banner/Banner";
+import Banner from "../Components/Banner/Banner";
+import Messges from "../Components/Messges/Messges";
 
 
 const Home = () => {
     return (
-        <div className="bg-blue-50  w-full h-full p-5 space-y-10">
+        <div className="bg-blue-50  w-full h-full  space-y-10">
             <Banner></Banner>
             <Feature></Feature>
+            <Messges></Messges>
         </div>
     );
 };
